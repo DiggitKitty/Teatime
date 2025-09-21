@@ -19,7 +19,7 @@ data class Tea(val name: String, val color: Color)
 
 // Liste deiner Tees
 val teas = listOf(
-    Tea("Matcha", MatchaGreen),
+    Tea("Grüner Tee", MatchaGreen),
     Tea("Schwarzer Tee", BlackTeaBrown),
     Tea("Rooibos", RooibosRedBrown)
 )
