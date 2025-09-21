@@ -21,8 +21,14 @@ data class Tea(val name: String, val color: Color)
 val teas = listOf(
     Tea("Grüner Tee", MatchaGreen),
     Tea("Schwarzer Tee", BlackTeaBrown),
-    Tea("Rooibos", RooibosRedBrown)
+    Tea("Rooibos", RooibosRedBrown),
+    Tea("Kräutertee", HerbalGreen),
+    Tea("Weißer Tee", WhiteTeaBlue),
+    Tea("Früchtetee", FruitTeaRed),
+    Tea("Chai", ChaiPurple),
+    Tea("Saisonaler Tee", SeasonalOrange)
 )
+
 
 @Composable
 fun MainScreen() {

@@ -1,7 +1,6 @@
 package com.example.teatime.ui.theme
 
 import androidx.compose.ui.graphics.Color
-
 // Matcha / Grüner Tee
 val MatchaGreen = Color(0xFF8FBC8F)
 val LightMatchaGreen = Color(0xFFA8D5BA)
@@ -25,3 +24,14 @@ val BackgroundLight = Color(0xFFFFFBF5)
 val BackgroundDark = Color(0xFF1C1B1A)
 val TextPrimary = Color(0xFF333333)
 val TextSecondary = Color(0xFF777777)
+val HerbalGreen = Color(0xFF4CAF50)      // Kräutertee – saftiges Grün
+val WhiteTeaBlue = Color(0xFFADD8E6)   // Weißer Tee – Babyblau
+val FruitTeaRed = Color(0xFFF28B82)      // Früchtetee – sanftes Rot
+val ChaiPurple = Color(0xFFD1C4E9)       // Chai – sanftes Lila
+val SeasonalOrange = Color(0xFFFFB74D)   // Saisonaler Tee – sanftes Orange
+
+
+
+
+
+
