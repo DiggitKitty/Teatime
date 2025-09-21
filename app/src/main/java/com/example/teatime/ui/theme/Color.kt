@@ -2,12 +2,26 @@ package com.example.teatime.ui.theme
 
 import androidx.compose.ui.graphics.Color
 
-val md_theme_light_primary = Color(0xFF6750A4)
-val md_theme_light_onPrimary = Color(0xFFFFFFFF)
-val md_theme_light_secondary = Color(0xFF625B71)
-val md_theme_light_onSecondary = Color(0xFFFFFFFF)
+// Matcha / Grüner Tee
+val MatchaGreen = Color(0xFF8FBC8F)
+val LightMatchaGreen = Color(0xFFA8D5BA)
+val DarkMatchaGreen = Color(0xFF5A7D5A)
 
-val md_theme_dark_primary = Color(0xFFD0BCFF)
-val md_theme_dark_onPrimary = Color(0xFF381E72)
-val md_theme_dark_secondary = Color(0xFFCCC2DC)
-val md_theme_dark_onSecondary = Color(0xFF332D41)
+// Schwarztee / Braun
+val BlackTeaBrown = Color(0xFF6B4C3B)
+val LightBlackTea = Color(0xFF8B6F5B)
+val DarkBlackTea = Color(0xFF4B2F24)
+
+// Rooibos / Rotbraun
+val RooibosRed = Color(0xFFB65C40)
+val LightRooibos = Color(0xFFD0846D)
+val DarkRooibos = Color(0xFF7A3B2A)
+val RooibosRedBrown = Color(0xFFA0522D)
+
+
+
+// Neutrale Farben für Hintergrund / Text
+val BackgroundLight = Color(0xFFFFFBF5)
+val BackgroundDark = Color(0xFF1C1B1A)
+val TextPrimary = Color(0xFF333333)
+val TextSecondary = Color(0xFF777777)

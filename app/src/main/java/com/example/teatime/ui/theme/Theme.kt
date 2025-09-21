@@ -1,23 +1,32 @@
 package com.example.teatime.ui.theme
 
 import androidx.compose.foundation.isSystemInDarkTheme
-import androidx.compose.material3.MaterialTheme
-import androidx.compose.material3.darkColorScheme
-import androidx.compose.material3.lightColorScheme
+import androidx.compose.material3.*
 import androidx.compose.runtime.Composable
+import androidx.compose.ui.graphics.Color
 
+// Light Colors
 private val LightColors = lightColorScheme(
-    primary = md_theme_light_primary,
-    onPrimary = md_theme_light_onPrimary,
-    secondary = md_theme_light_secondary,
-    onSecondary = md_theme_light_onSecondary
+    primary = MatchaGreen,
+    onPrimary = Color.White,
+    secondary = BlackTeaBrown,
+    onSecondary = Color.White,
+    background = BackgroundLight,
+    onBackground = Color.Black,
+    surface = Color.White,
+    onSurface = Color.Black
 )
 
+// Dark Colors (optional, anpassbar)
 private val DarkColors = darkColorScheme(
-    primary = md_theme_dark_primary,
-    onPrimary = md_theme_dark_onPrimary,
-    secondary = md_theme_dark_secondary,
-    onSecondary = md_theme_dark_onSecondary
+    primary = MatchaGreen,
+    onPrimary = Color.Black,
+    secondary = BlackTeaBrown,
+    onSecondary = Color.Black,
+    background = Color(0xFF121212),
+    onBackground = Color.White,
+    surface = Color(0xFF1E1E1E),
+    onSurface = Color.White
 )
 
 @Composable
@@ -30,6 +39,7 @@ fun TeaTimeTheme(
     MaterialTheme(
         colorScheme = colors,
         typography = Typography,
+        shapes = Shapes,
         content = content
     )
 }
